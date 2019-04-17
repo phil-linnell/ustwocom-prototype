@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="40px" viewBox="0 0 34 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Down Indicator</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Exploration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Health-Landing" transform="translate(-703.000000, -805.000000)" fill="#111111">
+            <g id="Down-Indicator" transform="translate(703.000000, 805.000000)">
+                <path d="M10.3125,29.6599026 L28.8125,29.6599026 L28.8125,34.6599026 L10.3125,34.6599026 L10.3125,35.2224026 L5.3125,35.2224026 L5.3125,34.6599026 L5.1875,34.6599026 L5.1875,29.6599026 L5.3125,29.6599026 L5.3125,11.5974026 L10.3125,11.5974026 L10.3125,29.6599026 Z" id="Combined-Shape" transform="translate(17.000000, 23.409903) scale(1, -1) rotate(135.000000) translate(-17.000000, -23.409903) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

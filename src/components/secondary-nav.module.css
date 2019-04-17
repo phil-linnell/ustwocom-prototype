@@ -1,0 +1,40 @@
+.secondaryNav {
+  margin-bottom: 5vh;
+  border-bottom: 1px solid #ddd;
+}
+
+.secondaryNav ul > li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 30px;
+  line-height: 50px;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.secondaryNav a {
+  color: black;
+}
+
+.secondaryNav li.active {
+  border-bottom: 2px solid black;
+}
+
+.subNav {
+  position: absolute;
+  display: none;
+}
+
+.subNav li {
+  list-style-type: none;
+}
+
+.subNavSelect {
+  padding-right: 20px;
+  background: url("../images/icon-down-arrow.svg") no-repeat right 50%;
+  background-size: 12px 12px;
+}
+
+.subNavSelect:hover .subNav {
+  display: block;
+}

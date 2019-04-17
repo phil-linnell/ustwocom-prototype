@@ -1,0 +1,45 @@
+.feature {
+  height: 500px;
+  background-color: #eee;
+  margin-bottom: 50px;
+}
+
+.c2aWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.c2a {
+  flex-basis: calc(50% - 25px);
+  box-sizing: border-box;
+  padding-bottom: 50px;
+  background-color: #eee;
+  padding: 30px;
+  margin-bottom: 50px;
+  min-height: 100px;
+}
+
+.c2a:nth-child(1),
+.c2a:nth-child(3) {
+  margin-right: 25px;
+}
+
+.c2a:nth-child(2),
+.c2a:nth-child(4) {
+  margin-left: 25px;
+}
+
+.c2a h2 {
+  margin-bottom: 15px;
+}
+
+.c2a a {
+  display: block;
+  color: black;
+}
+
+.tag {
+  text-transform: uppercase;
+  font-size: 12px;
+}

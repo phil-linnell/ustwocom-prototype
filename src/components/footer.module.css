@@ -1,0 +1,11 @@
+.wrapper {
+  background-color: #aaa;
+  min-height: 20vh;
+}
+
+.inner {
+  max-width: 1300px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 5vh 0;
+}

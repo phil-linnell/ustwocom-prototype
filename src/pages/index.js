@@ -1,21 +1,42 @@
-import React from "react"
-import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
+import cssClass from "./index.module.css";
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+  <Layout noNav>
+    <div className={cssClass.feature} />
+    <div className={cssClass.c2aWrapper}>
+      <div className={cssClass.c2a}>
+        <Link to="/studios/">
+          <div className={cssClass.tag}>Studios</div>
+          <h2>What can we do for you?</h2>
+          <p>Digital transformation, immersive experiences, auto, games</p>
+        </Link>
+      </div>
+      <div className={cssClass.c2a}>
+        <Link to="/games/">
+          <div className={cssClass.tag}>Games</div>
+          <h2>We create our own Games</h2>
+          <p>Our team, awards, news, careers</p>
+        </Link>
+      </div>
+      <div className={cssClass.c2a}>
+        <Link to="/adventure/">
+          <div className={cssClass.tag}>Adventure</div>
+          <h2>We invest in companies</h2>
+          <p>A path for companies to own their future</p>
+        </Link>
+      </div>
+      <div className={cssClass.c2a}>
+        <Link to="/foundation/">
+          <div className={cssClass.tag}>Foundation</div>
+          <h2>Our Foundation</h2>
+          <p>Focus on access to and mobility within the creative industries.</p>
+        </Link>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

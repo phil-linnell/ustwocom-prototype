@@ -1,0 +1,58 @@
+.header {
+  background: white;
+  height: 80px;
+}
+
+.header.full {
+  background: transparent;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  max-width: 1300px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.logo svg {
+  width: 100px;
+}
+
+.mainNav {
+  margin-left: 60px;
+}
+
+.mainNav li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.mainNav a,
+.secondNav a {
+  color: black;
+  line-height: 80px;
+}
+
+.mainNav a {
+  display: block;
+  padding: 0 30px;
+}
+
+.active,
+.mainNav a:hover {
+  background-color: #f6f6f6;
+}
+
+.secondNav {
+  margin-left: auto;
+}
+
+.secondNav li {
+  display: inline-block;
+  margin: 0 10px;
+}

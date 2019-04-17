@@ -1,0 +1,32 @@
+@font-face {
+  font-family: PxGroteskRegular;
+  src: url(../fonts/PxGrotesk-Regular.eot);
+  src: url(../fonts/PxGrotesk-Regular.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/PxGrotesk-Regular.woff2) format('woff2'),
+       url(../fonts/PxGrotesk-Regular.woff) format('woff'),
+       url(../fonts/PxGrotesk-Regular.svg#PxGroteskRegular) format('svg');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: #f6f6f6;
+  font-family: PxGroteskRegular, arial, sans-serif;
+}
+
+.wrapper {
+  min-height: 80vh;
+}
+
+.inner {
+  max-width: 1300px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 0 5vh 0;
+}
+
+.noNav .inner {
+  padding-top: 5vh;
+}
