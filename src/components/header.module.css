@@ -24,7 +24,7 @@
 }
 
 .mainNav {
-  margin-left: 60px;
+  margin-left: 40px;
 }
 
 .mainNav li {
@@ -34,7 +34,7 @@
 
 .mainNav a,
 .secondNav a {
-  color: black;
+  color: #444;
   line-height: 80px;
 }
 
@@ -44,8 +44,18 @@
 }
 
 .active,
+.mainNav .active a,
 .mainNav a:hover {
   background-color: #f6f6f6;
+  color: black;
+}
+
+.secondNav a:hover {
+  color: black;
+}
+
+.header.full .mainNav li:nth-child(2).active {
+  background-color: rgba(255,255,255,.3);
 }
 
 .secondNav {
@@ -54,5 +64,5 @@
 
 .secondNav li {
   display: inline-block;
-  margin: 0 10px;
+  margin-left: 30px;
 }

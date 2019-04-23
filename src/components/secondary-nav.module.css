@@ -1,18 +1,26 @@
 .secondaryNav {
   margin-bottom: 5vh;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 2px solid rgba(0,0,0,.1);
 }
 
-.secondaryNav ul > li {
+.secondaryNav > ul > li {
   list-style-type: none;
   display: inline-block;
+  /* padding: 0 15px; */
   margin-right: 30px;
   line-height: 50px;
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
+  transform: translateY(2px);
 }
 
 .secondaryNav a {
+  color: #444;
+  display: block;
+}
+
+.secondaryNav a:hover,
+.secondaryNav li.active a {
   color: black;
 }
 
@@ -22,16 +30,29 @@
 
 .subNav {
   position: absolute;
+  background-color: white;
+  /* padding: 15px 0; */
+  transform: translate(-15px, 2px);
+  width: 200px;
   display: none;
 }
 
 .subNav li {
   list-style-type: none;
+  line-height: 2.4;
+  display: block;
+  padding: 2px 15px;
 }
 
-.subNavSelect {
-  padding-right: 20px;
-  background: url("../images/icon-down-arrow.svg") no-repeat right 50%;
+.subNav li:hover {
+  background-color: #eee;
+}
+
+.secondaryNav > ul > .subNavSelect {
+  padding-right: 35px;
+  background-image: url("../images/icon-down-arrow.svg");
+  background-repeat:  no-repeat;
+  background-position: calc(100% - 15px) 50%;
   background-size: 12px 12px;
 }
 

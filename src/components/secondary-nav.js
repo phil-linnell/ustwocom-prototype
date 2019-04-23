@@ -8,7 +8,20 @@ const studiosNav = [{
   name: "What we do"
 },{
   slug: "/studios/work",
-  name: "Case Studies"
+  name: "Work",
+  sub: [{
+    slug: "/studios/auto",
+    name: "Auto & Mobility"
+  },{
+    slug: "/studios/digital-transformation",
+    name: "Digital Transformation"
+  },{
+    slug: "/studios/health",
+    name: "Health"
+  },{
+    slug: "/studios/immersive",
+    name: "Immersive Experiences"
+  }]
 },{
   slug: "/studios/our-studios",
   name: "Our Studios",
@@ -25,31 +38,31 @@ const studiosNav = [{
     slug: "/studios/sydney",
     name: "Sydney"
   }]
-},{
-  slug: "/join",
-  name: "Careers"
 }];
 
 const gamesNav = [{
   slug: "/games/",
-  name: "About"
+  name: "What we do"
 },{
   slug: "/games/our-games",
   name: "Our Games"
 },{
+  slug: "/games/team",
+  name: "Our Team"
+},{
   slug: "/games/faqs",
   name: "FAQs"
-},{
-  slug: "/games/team",
-  name: "Team"
-},{
-  slug: "join",
-  name: "Careers"
 }];
 
 const adventureNav = [{
   slug: "/adventure/",
-  name: "About"
+  name: "Approach"
+},{
+  slug: "/adventure/portfolio",
+  name: "Portfolio"
+},{
+  slug: "/adventure/faqs",
+  name: "FAQs"
 }];
 
 const foundationNav = [{
@@ -84,7 +97,7 @@ const NavStudios = ({ active, parent, replace }) => {
 
             return (
               <li className={classes}>
-                <Link to={item.slug}>{(replace && item.sub) ? replace : item.name}</Link>
+                <Link to={item.slug}>{item.name}</Link>
                 {
                   item.sub && (
                     <ul className={cssClass.subNav}>
