@@ -34,9 +34,9 @@ const Header = ({ siteTitle, active, full }) => {
         <nav className={cssClass.secondNav}>
           <ul>
             <li><Link to="/blog">Blog</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/join">Join</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/about">About us</Link></li>
+            <li><Link to="/join">Join us</Link></li>
+            <li><Link to="/contact">Contact us</Link></li>
           </ul>
         </nav>
       </div>

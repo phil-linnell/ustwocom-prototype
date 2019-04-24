@@ -1,6 +1,7 @@
 .wrapper {
-  background-color: #aaa;
+  background-color: #333;
   min-height: 20vh;
+  color: #fff;
 }
 
 .inner {

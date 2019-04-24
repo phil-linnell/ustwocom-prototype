@@ -12,7 +12,8 @@
 }
 
 body {
-  background-color: #f6f6f6;
+  background-color: #eee;
+  background: linear-gradient(180deg, rgba(238,238,238,1) 10%, rgba(246,246,246,1) 20%);
   font-family: PxGroteskRegular, arial, sans-serif;
 }
 
@@ -28,5 +29,5 @@ body {
 }
 
 .noNav .inner {
-  padding-top: 5vh;
+  padding-top: 10vh;
 }

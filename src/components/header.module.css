@@ -4,7 +4,7 @@
 }
 
 .header.full {
-  background: transparent;
+  /* background: transparent; */
 }
 
 .inner {
@@ -34,7 +34,7 @@
 
 .mainNav a,
 .secondNav a {
-  color: #444;
+  color: #666;
   line-height: 80px;
 }
 
@@ -46,16 +46,19 @@
 .active,
 .mainNav .active a,
 .mainNav a:hover {
-  background-color: #f6f6f6;
+  background-color: #eee;
   color: black;
+}
+.mainNav .active a {
+  font-weight: bold;
 }
 
 .secondNav a:hover {
   color: black;
 }
 
-.header.full .mainNav li:nth-child(2).active {
-  background-color: rgba(255,255,255,.3);
+.header.full .mainNav li.active a {
+
 }
 
 .secondNav {

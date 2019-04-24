@@ -1,8 +1,9 @@
 import React from "react";
 import Layout from "../components/layout";
+import JoinUsImage from "../images/join-us.jpg";
 
 export default () => (
   <Layout active="join" noNav>
-    <h1>Join</h1>
+    <img src={JoinUsImage} style={{ width: `100%` }} alt=""  />
   </Layout>
 );

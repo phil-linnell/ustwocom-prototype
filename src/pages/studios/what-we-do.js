@@ -3,8 +3,8 @@ import Layout from "../../components/layout";
 import SecondaryNav from "../../components/secondary-nav";
 
 export default () => (
-  <Layout active="adventure">
-    <SecondaryNav parent="adventure" active="/adventure/portfolio" />
-    <h1>Portfolio</h1>
+  <Layout active="studios">
+    <SecondaryNav parent="studios" active="/studios/what-we-do" />
+    <h1>What we do</h1>
   </Layout>
 );

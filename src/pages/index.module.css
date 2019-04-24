@@ -1,7 +1,5 @@
 .feature {
-  height: 500px;
-  background-color: #eee;
-  margin-bottom: 50px;
+  transform: translateY(-5vh);
 }
 
 .c2aWrapper {
@@ -41,5 +39,4 @@
 
 .tag {
   text-transform: uppercase;
-  font-size: 12px;
 }

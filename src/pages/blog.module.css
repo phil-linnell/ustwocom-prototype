@@ -1,0 +1,22 @@
+.blogFilter {
+  display: flex;
+  padding: 10vh 0 5vh;
+}
+
+.category {
+  margin-right: 30px;
+}
+
+.category span {
+  display: inline-block;
+  background-image: url("../images/icon-down-arrow.svg");
+  background-repeat:  no-repeat;
+  background-position: right 35%;
+  background-size: 12px 12px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.search input {
+  padding: 5px;
+}

@@ -2,10 +2,13 @@ import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import cssClass from "./index.module.css";
+import Deepmind from "../images/deepmind.jpg";
 
 const IndexPage = () => (
   <Layout noNav>
-    <div className={cssClass.feature} />
+    <div className={cssClass.feature}>
+      <img src={Deepmind} alt="" style={{ width: `100%` }} />
+    </div>
     <div className={cssClass.c2aWrapper}>
       <div className={cssClass.c2a}>
         <Link to="/studios/">

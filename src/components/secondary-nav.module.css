@@ -6,7 +6,6 @@
 .secondaryNav > ul > li {
   list-style-type: none;
   display: inline-block;
-  /* padding: 0 15px; */
   margin-right: 30px;
   line-height: 50px;
   border-top: 2px solid transparent;
@@ -30,9 +29,8 @@
 
 .subNav {
   position: absolute;
-  background-color: white;
-  /* padding: 15px 0; */
-  transform: translate(-15px, 2px);
+  background-color: #fff;
+  transform: translate(0, 2px);
   width: 200px;
   display: none;
 }
@@ -45,7 +43,7 @@
 }
 
 .subNav li:hover {
-  background-color: #eee;
+  background-color: #ddd;
 }
 
 .secondaryNav > ul > .subNavSelect {

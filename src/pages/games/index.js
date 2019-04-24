@@ -6,6 +6,7 @@ import cssClass from "./games.module.css";
 export default () => (
   <Layout active="games" full className={cssClass.games}>
     <SecondaryNav parent="games" active="/games/" />
-    <h1>Games</h1>
+    <h1>Showcase</h1>
+    <h2>[Mission Statement]</h2>
   </Layout>
 );

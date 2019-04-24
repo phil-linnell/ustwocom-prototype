@@ -5,9 +5,6 @@ import cssClass from "./secondary-nav.module.css";
 
 const studiosNav = [{
   slug: "/studios/",
-  name: "What we do"
-},{
-  slug: "/studios/work",
   name: "Work",
   sub: [{
     slug: "/studios/auto",
@@ -22,6 +19,9 @@ const studiosNav = [{
     slug: "/studios/immersive",
     name: "Immersive Experiences"
   }]
+},{
+  slug: "/studios/what-we-do",
+  name: "What we do"
 },{
   slug: "/studios/our-studios",
   name: "Our Studios",
@@ -56,10 +56,10 @@ const gamesNav = [{
 
 const adventureNav = [{
   slug: "/adventure/",
-  name: "Approach"
-},{
-  slug: "/adventure/portfolio",
   name: "Portfolio"
+},{
+  slug: "/adventure/approach",
+  name: "Approach"
 },{
   slug: "/adventure/faqs",
   name: "FAQs"

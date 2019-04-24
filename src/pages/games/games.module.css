@@ -1,4 +1,5 @@
 .games {
   background: url("../../images/ustwo-games.jpg") no-repeat 50% 50%;
   background-size: cover;
+  background-position: 0 80px;
 }
