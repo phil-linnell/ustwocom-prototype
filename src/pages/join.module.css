@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 50px;
+}
+
+.wrapper h2 {
+  margin-bottom: 20px;
+}
+
+.studios {
+  flex: 2;
+}
+
+.games {
+  flex: 1;
+}
+
+.adventure {
+  flex: 1;
+}
+
+.studiosWrapper {
+  display: flex;
+}
+
+.studiosWrapper > div {
+  flex: 1;
+}
+
+.wrapper ul {
+  margin: 10px 0 30px;
+  list-style-type: none
+}

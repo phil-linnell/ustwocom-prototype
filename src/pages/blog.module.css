@@ -3,6 +3,11 @@
   padding: 10vh 0 5vh;
 }
 
+.blogFilterJoin {
+  display: flex;
+  padding: 0 0 5vh;
+}
+
 .category {
   margin-right: 30px;
 }
